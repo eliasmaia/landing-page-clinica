@@ -29,12 +29,6 @@ export default function ServicoCard({
         <h3 className="text-xl font-bold text-gray-900 mb-2">{titulo}</h3>
         <p className="text-gray-600 text-sm leading-relaxed mb-6">{descricao}</p>
       </div>
-      <a
-        href="#contato"
-        className="inline-flex items-center text-blue-600 font-semibold text-sm hover:text-blue-700 transition-colors"
-      >
-        Saiba mais <span className="ml-1">→</span>
-      </a>
     </div>
   );
 }

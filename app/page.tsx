@@ -2,13 +2,6 @@ import Image from 'next/image';
 import type { Metadata } from 'next'
 import ServicoCard from '@/components/ServicoCard';
 
-interface ServicoCardProps {
-  titulo: string;
-  descricao: string;
-  imagemUrl: string;
-  altText: string;
-}
-
 export const metadata: Metadata = {
   title: 'Clínica Vida & Saúde | Atendimento Médico em Teresina',
   description: 'Consultas especializadas, exames de precisão e atendimento humanizado',
