@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph : {
     title: 'Clínica Vida & Saúde',
     description: 'Cuidado médico especializado para você e sua familia em Teresina.',
-    url: 'https://landing-page-clinica-gkz6i4qaz-elijah-s-team1.vercel.app/',
+    url: 'https://clinicavidaesaude.vercel.app',
     siteName: 'Clínica Vida & Saúde',
     locale: 'pt_BR',
     type: 'website',
