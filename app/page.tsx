@@ -12,6 +12,14 @@ export const metadata: Metadata = {
     siteName: 'Clínica Vida & Saúde',
     locale: 'pt_BR',
     type: 'website',
+    images: [
+      {
+        url: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&h=630&q=80',
+        width: 1200,
+        height: 630,
+        alt: 'Clínica Vida & Saúde',
+      },
+    ],
   }
 }
 
