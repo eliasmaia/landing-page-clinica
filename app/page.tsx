@@ -129,8 +129,21 @@ export default function Home() {
             <p className="mt-1">📞 (86) 99999-9999</p>
           </div>
         </div>
-        <div className="max-w-6xl mx-auto px-4 mt-8 pt-8 border-t border-slate-800 text-center text-xs text-gray-500">
-          © {new Date().getFullYear()} Clínica Vida & Saúde. Todos os direitos reservados.
+        <div className="max-w-6xl mx-auto px-4 mt-8 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between text-xs text-gray-500 gap-4">
+          <p>
+            © {new Date().getFullYear()} Clínica Vida & Saúde. Todos os direitos reservados.
+          </p>
+          <p>
+            Desenvolvido por{' '}
+            <a
+              href="https://eliasmoraes.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-teal-400 transition-colors hover:text-teal-300"
+            >
+              Elias Maia
+            </a>
+          </p>
         </div>
       </footer>
 
